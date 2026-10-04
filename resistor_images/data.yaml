@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Black', 'Blue', 'Brown', 'Green', 'Orange', 'Red', 'Side-Gold', 'Side-Silver', 'Yellow']
+
+roboflow:
+  workspace: afsals-workspace
+  project: resistor-color-detection-c2tir
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/afsals-workspace/resistor-color-detection-c2tir/dataset/1
